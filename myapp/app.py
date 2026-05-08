@@ -49,9 +49,14 @@ st.write("Machine Learning project using Linear Regression")
 # ---------------------------------
 # LOAD DATA
 # ---------------------------------
+import os
+
 @st.cache_data
 def load_data():
-    df = pd.read_csv("titanic.csv")
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+    csv_path = os.path.join(BASE_DIR, "titanic.csv")
+
+    df = pd.read_csv(csv_path)
     return df
 
 df = load_data()
