@@ -46,7 +46,7 @@ The dataset contains the following features:
 - NumPy  
 - Matplotlib  
 - Streamlit  
-- Scikit-learn  
+
 
 
 
