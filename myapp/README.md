@@ -167,25 +167,8 @@ In this lab, Linear Regression was applied to analyze the relationship between p
 ['Pclass', 'Age', 'SibSp', 'Parch', 'Fare']
 ###  Target Variable
 Survived
-✔ Model Used
+# Model Used
 LinearRegression()
-✔ Dataset Split
 
-The dataset was divided into:
-
-Training set
-Testing set
-
-The model was trained using the training data and evaluated using the testing data.
-
-###  Evaluation Metrics
-
-The model performance was evaluated using:
-
-Mean Squared Error (MSE)
-Mean Absolute Error (MAE)
-R² Score
-###  Example
-mse = mean_squared_error(y_test, y_pred)
 
 The regression model helped identify relationships between passenger information and survival outcomes.
